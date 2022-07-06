@@ -119,7 +119,7 @@ button {
 .align-left{
     text-align:left
 }
-.mission22{
+.donate-container{
     max-width: 1680px;
     margin: 0 auto;
 }
@@ -128,7 +128,7 @@ button {
     margin: 0 25px;
     padding: 3%;
 }
-.mission22-flex{
+.donate-flex{
     display: flex;
 }
 .donate-plan img {
