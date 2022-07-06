@@ -8,6 +8,10 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
   box-sizing: border-box;
 }
+.paragraph{
+    font-size: 20px;
+    line-height: 1.5;
+}
 .container{
     width: 80%;
     margin: 0 auto;
@@ -25,7 +29,8 @@ header {
   url('/images/donation5.jpg');
   background-size: cover;
   height: 100vh;
-  opacity: 0.8;
+  color: whitesmoke;
+  backdrop-filter: blur(8px);
 }
 
 .title {
@@ -104,10 +109,9 @@ button {
     display: flex;
 }
 .title-style{
-    font-size: 35px;
+    font-size: 50px;
     font-family: ui-monospace;
     font-weight: 700;
-    margin: 15px;
 }
 .align-center{
     text-align: center;
@@ -141,3 +145,90 @@ button {
 .mission22-box:nth-child(3) {
     background-color: #FFF4D6;
   }
+  .text-with-image {
+    margin: 80px 20px 20px 0px;
+}
+.half-width{
+    width: 50%;
+    padding: 2%;
+}
+.left-image img{
+    width: 100%;
+}
+.right-image img{
+    width: 100%;
+}
+.right-text {
+    margin: 100px 20px 0px 0px;
+}
+.link-button {
+    background-image: linear-gradient(to right, #AA076B 0%, #61045F  51%, #AA076B  100%)
+}
+.link-button{
+    margin: 0px;
+    padding: 15px 45px;
+    text-align: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    position:relative;
+    top: 20px;
+}
+.link-button:hover{
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+.newsletter{
+    width: 1150px;
+    margin: 0 auto;
+}
+
+input, textarea{
+    display: inline;
+    width: 100%;
+    padding: 0 20px;
+    border: 2px solid rgba(0,0,0,.1);
+    border-radius: 5px;
+    height: 50px;
+    line-height: 46px;
+    margin-bottom: 20px;
+    outline: none;
+    color: #1f1f25;
+    font-size: 15px;
+    letter-spacing: .1px;
+  }
+  textarea{
+      height: 120px;
+  }
+  .right-text-b {
+    margin:0px 50px 0px 0px;
+}
+.title-style-creative{
+    font-size: 60px;
+    font-family: ui-monospace;
+    font-weight: 700;
+    margin: 20px 0px;
+}
+.footer-title{
+    font-size: 30px;
+    font-family: ui-monospace;
+    font-weight: 700;
+    margin: 15px; 
+    color: #fff;
+}
+footer{
+    text-align: center;
+    background-color: #000000;
+    padding: 20px;
+    margin-top: 50px;
+}
+footer p{
+    color: #fff;
+}
+.Signup{
+    width: 60%;
+    text-align: center;
+}
