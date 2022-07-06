@@ -232,3 +232,15 @@ footer p{
     width: 40%;
     text-align: center;
 }
+.donate-button{
+    width: 40%;
+    margin: 0 auto;
+}
+.inout-value{
+
+}
+.moving {
+    position: relative;
+    left: 250px;
+    top: 2px;
+}
