@@ -6,42 +6,138 @@
 
 body {
   font-family: 'Source Sans Pro', sans-serif;
+  box-sizing: border-box;
 }
-
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.flexible-area{
+    display: flex;
+    flex-wrap: nowrap;
+}
 header {
   background: 
-    linear-gradient(
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
+  linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
     ),
-    url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/cheese-curds.jpg);
+  url('/images/donation5.jpg');
   background-size: cover;
   height: 100vh;
+  opacity: 0.8;
 }
 
 .title {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-  text-align: center;
+  transform: translate(-50%, -50%);*/
+  color: white; 
+  text-align: center; 
+  align-items: center;
+  justify-content: center;
+  color:white;
 }
-h1 {
-  text-transform: uppercase;
-  margin: 0;
-  font-size: 3rem;
-  white-space: nowrap;
+.title .paragraph{
+line-height: 1.6;
 }
-h2 {
-  font-size: 2rem;
-}
-p {
-  margin: 0;
-  font-size: 1.3rem;
+.hero-title{
+    text-transform: capitalize;
+    margin: 0;
+    font-size: 5rem;
+    white-space: nowrap;
 }
 
-main {
-  max-width: 500px;
-  margin: 20px auto;
+button {
+    padding: 15px;
+    color: #ffffff;
+    border-radius: 10px;
+    border: none;
+    background-color: hsl(11deg 100% 62%);
+    margin-top: 15px;
+    font-size: 20px;
+    cursor: pointer;
 }
+/* head section end */
+.donate-amount{
+    width: 100px;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    text-align: center;
+    height: 100px;
+    margin: 20px;
+    flex: 1;
+    justify-content: center;
+    align-self: center;
+    padding: 10px;
+}
+.donate-amount-style{
+    border: 2px solid #df1717;
+    background-color: #e7dbdb;
+    color: #df1717;
+}
+.making-middle{
+    position: relative;
+    top: 40%;
+    left: 0%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+}
+.align-item-center{
+    text-align: center;
+}
+.title-styling{
+    padding: 10px;
+    font-size: 4rem;
+}
+.paragraph-style{
+    font-size: 20px;
+    line-height: 1.5;
+    padding: 10px;
+}
+.align-item-center>hr{
+    width: 600px;
+}
+/* New */
+.flex{
+    display: flex;
+}
+.title-style{
+    font-size: 35px;
+    font-family: ui-monospace;
+    font-weight: 700;
+    margin: 15px;
+}
+.align-center{
+    text-align: center;
+}
+.align-left{
+    text-align:left
+}
+.mission22{
+    max-width: 1680px;
+    margin: 0 auto;
+}
+.mission22-box {
+    background-color: papayawhip;
+    margin: 0 25px;
+    padding: 3%;
+}
+.mission22-flex{
+    display: flex;
+}
+.mission22-box img {
+    width: 80px;
+    height: 80px;
+}
+.mission22-box:nth-child(1) {
+    background-color: rgba(79, 157, 166, 0.1);
+    ;
+  }
+.mission22-box:nth-child(2) {
+    background-color: rgba(255, 89, 89, 0.1);
+  }
+.mission22-box:nth-child(3) {
+    background-color: #FFF4D6;
+  }
